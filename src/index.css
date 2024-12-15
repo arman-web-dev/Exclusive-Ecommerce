@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots li {
+  @apply w-3 h-3 rounded-full bg-[tomato];
+}
+
+.slick-dots li.slick-active button {
+  @apply bg-blue-500 rounded-full;
+}
+.sidebar-scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+.sidebar-scrollbar-hide::-webkit-scrollbar {
+  display: none; 
+}
+
+.scroll-container {
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch; 
+}
